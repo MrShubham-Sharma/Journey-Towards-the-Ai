@@ -7,7 +7,11 @@ if Sem_6_sgpa >= sgpa :
     print("Status : Your eligibal for Ai/Ml Job Role")
 # if the grater than the 6.5 then user in safe zone
 elif Sem_6_sgpa >= 6.5 :
-    print("Status : Your in safe zone But GIve more Effort Next time")
+    print("Status : Your in safe zone But gIve your best Next time")
 # else where the condition ends where user need more efforts 
 else:
     print("Status : Your Need TO Rise at least 6.5+")
+
+
+         # note for day in python we have the clear that sequence is if > elif >else :
+        #  else: is end of condition only it contains (":")
