@@ -16,15 +16,33 @@ for x in site_costs:
 
 # --- ZONE 3: THE RESULT ---
 # We print everything AFTER the loop is finished (no indentation).
-print("Total Money Spent: " + str(total_sum))
-print("The Most Expensive Item: " + str(highest_cost))
 
+
+# --- ROOM 1: INPUT (The Materials) ---
+# We create a list to store your historical data
 my_sgpa = [5.67, 5.93, 5.79, 6.7]
+
+# We start our 'sum' at 0 because we haven't added anything yet
 total_sum_sgpa = 0
+
+# We pick the first item as the 'King of the Hill' to start the comparison
 highest_sgpa = my_sgpa[0]
+
+
+# --- ROOM 2: PROCESS (The Work) ---
+# The 'for' loop acts as a conveyor belt, picking up one SGPA at a time
 for sgpa in my_sgpa:
+    
+    # 1. ADDING: We take the current sgpa and add it to our running total
     total_sum_sgpa = total_sum_sgpa + sgpa
-    if sgpa> highest_sgpa:
-        highest_sgpa= sgpa
-print("Toatal My sgpa is :"+str(total_sum_sgpa))
-print("MY HIGHEST SGPA IS :"+str(highest_sgpa))
+    
+    # 2. COMPARING: We ask if the current sgpa is bigger than our current record
+    if sgpa > highest_sgpa:
+        # If true, we update our record with the new higher value
+        highest_sgpa = sgpa
+
+
+# --- ROOM 3: OUTPUT (The Result) ---
+# These are NOT indented, so they only run once after the loop finishes
+print("Total My sgpa is :" + str(total_sum_sgpa))
+print("MY HIGHEST SGPA IS :" + str(highest_sgpa))
