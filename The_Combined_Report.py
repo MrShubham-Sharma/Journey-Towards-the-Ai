@@ -46,3 +46,16 @@ for sgpa in my_sgpa:
 # These are NOT indented, so they only run once after the loop finishes
 print("Total My sgpa is :" + str(total_sum_sgpa))
 print("MY HIGHEST SGPA IS :" + str(highest_sgpa))
+
+# 1. INPUT (The Materials)
+brick_prices = [12, 15, 10, 18]
+total_cost = 0  # Starting at 0 because we haven't bought any bricks yet
+
+# 2. PROCESS (The Work)
+for x in brick_prices:
+    # We take the price 'x' and add it to our bucket
+    total_cost = total_cost + x 
+
+# 3. OUTPUT (The Result)
+# We print the final sum after the loop finishes scanning all prices
+print("THE TOTAL COST OF BRICKS IS: " + str(total_cost))
