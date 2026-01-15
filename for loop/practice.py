@@ -18,13 +18,24 @@ print("Truck is full. Ready to leave for the site!")
 
 
 # You want to withdraw 500 rupees, but you only have 3 attempts to get the PIN right.
+# the counter
 attempt = 0
+
+# the prosses
 while attempt <3:
+
+    # input from user 
     pin = int(input("enter your pin :"))
     if pin == 1234:
+
         print("you can withdraw the cash")
+        # break for instant out from the loop
         break
+
     else:
+        # count the attempt +1
         attempt = attempt +1
+
+        # 3- will give out of the 0 count
         print(f"you remaining attempt is :{3-attempt}")   
 print("your transaction is finish")
