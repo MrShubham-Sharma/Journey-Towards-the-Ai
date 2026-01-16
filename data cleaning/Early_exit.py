@@ -1,3 +1,6 @@
+# The Scenario: You have a list of materials delivered to the site.
+#  If you see "Rust", you must stop the loop immediately and print an alert.
+
 # Initialization Input 
 materials = ["Cement", "Sand", "Steel", "Rust", "Bricks"]
 
