@@ -1,3 +1,7 @@
+# Imagine your father's construction site again. You want to track attendance for 3 Days,
+#  and each day has 2 Shifts (Morning and Evening)
+
+
 # OUTER LOOP: The Days
 for day in [1, 2, 3]:
     print(f"  Day {day} Starting ")
