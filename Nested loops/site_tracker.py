@@ -1,19 +1,18 @@
-# for reset grand total 
-grand_total = 0
+grand_total = 0  # Level 1: Lives forever
 
-# outer loop 
-for days in ["Monday", "Tuesday"]:
-    daily_total = 0  #This is the "Reset"
-    print(f"Processing: {days} ")
+for day in ["Day 1", "Day 2"]:
+    daily_total = 0  # Level 2: Resets every day
     
-    # inner lopp
-    for materials in ["Cement", "Steel"]:
-        cost = int(input(f"Enter cost for {materials} on {days}: "))
+    for material in ["Bricks", "Sand"]:
+        cost = int(input(f"Enter cost {day} for {material}: "))
+        # Level 3: Add to both!
         daily_total += cost
         grand_total += cost
+        
+    # This print should happen AFTER the materials are done, 
+    # but BEFORE the next day starts. (Line up with the 'for material')
+    print(f"Total spent on {day}: {daily_total}")
 
-        # final verification
-    print(f"Total spent on {days}: {daily_total}")
-
-# grand total
-print(f"\n GRAND TOTAL for the site: {grand_total}")
+# This print should happen ONLY ONCE at the very end.
+# (Line up with the first 'for day')
+print(f"Final Project Total: {grand_total}")
