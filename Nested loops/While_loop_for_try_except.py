@@ -14,7 +14,7 @@ for Room in ["Kitchen", "Hall"]:
                 grand_total += cost
                 break  # Exit the 'while' loop and move to next material
             except ValueError:
-                print(f"❌ ERROR: Please enter a numeric value for {Material}.")
+                print(f" ERROR: Please enter a numeric value for {Material}.")
         # END OF PERSISTENCE LOOP
     
     print(f" Room Total: Rs.{room_total}")
