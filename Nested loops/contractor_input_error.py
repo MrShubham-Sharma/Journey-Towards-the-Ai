@@ -13,7 +13,7 @@ for Room in ["Kitchen","Hall","Bedroom"]:
         
         # the condition for the input 
         try:
-            cost = int(input(f" The Budget of the {Room} is :"))
+            cost = int(input(f"Enter the cost of the {Material} for {Room} :"))
             grand_total += cost
             room_total += cost
 
