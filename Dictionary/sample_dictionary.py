@@ -13,3 +13,15 @@ print(trip_budget["Hotel"])  # Prints: 3000
 trip_budget["Shopping"] = 1000
 
 print(trip_budget)
+
+# { KEY : VALUE }
+student_profile = {
+    "name": "Shubham",
+    "college": "SLRTCE",
+    "cgpa": 6.01,
+    "skills": ["Python", "AI", "ML"]
+}
+
+# HOW TO OPEN THE LOCKER:
+# You just call the label inside square brackets
+print(student_profile["college"])  # Output: SLRTCE
