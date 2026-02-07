@@ -2,11 +2,12 @@ def check_expense(trip_name, **expenses):
     print(f"--- {trip_name} Audit ---")
     
     # We check if 'Food' is one of the keys in the logbook
-    if "Food" in expenses:
-        price = expenses["Food"]
-        return f"You spent Rs.{price} on Food."
-    else:
-        return "No Food expense found in the logbook!"
+    for name, cost in expenses.items():
+        print(f"{name} Rs.{cost}")
+    total =sum(expenses.values())
+    print("---------------")
+    return total
 
 # TEST IT
-print(check_expense("Darjeeling", Hotel=3000, Train=1500, Food=2000))
+Total_cost =check_expense("Darjeeling", Hotel=3000, Train=1500, Food=2000)
+print(f"The total Bill for all Expenses is :{Total_cost}")
