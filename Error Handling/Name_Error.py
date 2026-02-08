@@ -3,7 +3,7 @@ def smart_station(station, *costs):
         total = sum(costs)
         return f"Bill for {station} is: Rs.{total}"
     
-    except TypeError:
+    except NameError:
         return "❌ Error: You can only add numbers, not words!"
         
     except Exception as e:
