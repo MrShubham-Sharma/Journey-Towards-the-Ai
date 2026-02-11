@@ -4,6 +4,6 @@ def check_immutable(*costs):
         # Tuples are IMMUTABLE - you cannot change them!
         costs[0] = 5000 
     except TypeError:
-        return "❌ Verified: You cannot change prices inside a Tuple bag!"
+        return "Verified: You cannot change prices inside a Tuple bag!"
 
 print(check_immutable(1000, 2000, 3000))
