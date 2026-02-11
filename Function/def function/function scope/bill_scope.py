@@ -5,7 +5,10 @@ def calculate_chai_bill():
 calculate_chai_bill()
 
 # HR QUESTION: "Can I print chai_price here?"
-print(chai_price) #it will show the name error 
+
+# print(chai_price)
+
+#  #it will show the name error 
 
 # corrected code 
 def calculate_chai_bill():
