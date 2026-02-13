@@ -18,3 +18,14 @@ print(score.strip())                              #It Will Print SGPA:6.74
 print(score.lstrip())                             #It Will Print SGPA:6.74
 print(score.rstrip())                             #It Will Print  SGPA:6.74
 print(score.replace(" SGPA:6.74 ","SGPA:9.00"))   #It Will Print SGPA:9.00 It Will Replace
+
+# Sting To List Opration
+Friend = "Rohit,Parth"                   
+Friend_list = Friend.split(",")          
+print(Friend.split(","))                 #It Will Print ['ROhit','Parth']
+  
+new_string =" | ".join(Friend_list)      
+print(new_string)                        #It Will Print ROhit | Parth
+
+Final_string = ",".join(Friend_list)     
+print(Final_string)                      #It Will Print Rohit,Parth 
