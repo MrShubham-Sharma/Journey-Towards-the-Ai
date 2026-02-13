@@ -1,3 +1,4 @@
+#Sting Method
 Name = "SHUBhAM"
 print(Name[0:4])   #It Will Print SHUBH
 print(Name[::-1])  #It Will Print MAHBUHS
@@ -12,5 +13,8 @@ print(Name.capitalize())     #It Will Print Shubham
 print(Name.swapcase())       #It Will Print shubHam
 
 score = " SGPA:6.74 "
-print(score[5:])     #It Will Print 6.74
-print(score.strip()) #It Will Print SGPA:6.74
+print(score[5:])                                  #It Will Print 6.74
+print(score.strip())                              #It Will Print SGPA:6.74
+print(score.lstrip())                             #It Will Print SGPA:6.74
+print(score.rstrip())                             #It Will Print  SGPA:6.74
+print(score.replace(" SGPA:6.74 ","SGPA:9.00"))   #It Will Print SGPA:9.00 It Will Replace
