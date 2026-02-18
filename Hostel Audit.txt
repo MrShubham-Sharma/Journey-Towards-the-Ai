@@ -1,0 +1,2 @@
+Rent = 4000.Rs
+Food = 2000.RsThe Cost Of Today Is 6000.Rs
