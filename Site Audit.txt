@@ -1,1 +1,4 @@
 Bricks = 4000.Rs
+Bricks = 4000.Rs
+Bricks = 4000.Rs
+The Cost Of Today Is 4000.Rs
