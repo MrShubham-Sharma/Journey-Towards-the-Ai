@@ -1,0 +1,5 @@
+site_file = open("Site.txt","w")
+site_file.write("Cement =800.Rs\n")
+site_file.write("Sand =5000.Rs\n")
+site_file.write("The Total Sepnd in Day Is 5800.Rs\n")
+site_file.close

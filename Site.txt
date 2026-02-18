@@ -1,0 +1,3 @@
+Cement =800.Rs
+Sand =5000.Rs
+The Total Sepnd in Day Is 5800.Rs
