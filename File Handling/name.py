@@ -4,6 +4,6 @@
 my_file=open("Owner.txt", "w")
 
 # write() stands for Writing/Overrding 
-my_file.write("The Owenris Shubham")
-my_file.write("The Goal Is to Become an Ai/ML Engineer")
+my_file.write("The Owneris Shubham\n")
+my_file.write("The Goal Is to Become an Ai/ML Engineer\n")
 my_file.close()
