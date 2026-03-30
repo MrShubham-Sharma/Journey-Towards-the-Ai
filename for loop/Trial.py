@@ -8,3 +8,5 @@ for i in Name :
         print("Hello My Nigga")
     else:
         print("Error Unkown User")
+for i in Name :
+    print(i)
