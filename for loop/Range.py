@@ -19,8 +19,18 @@
 # for i in name[::-1]:
 #     print(i,end='')
 
-Sentence = "Hello My NIGGA HOW ARE YOU"
-count=0
-for N in Sentence.split():
-    count +=1
-print(f"There are {count} of words in sentence.")
+# Sentence = "Hello My NIGGA HOW ARE YOU"
+# count=0
+# for N in Sentence.split():
+#     count +=1
+# print(f"There are {count} of words in sentence.")
+# # List Opation 
+# Cars = ["BMW","AUDI","TOYOTA"]
+# for car in Cars:
+#     print(car)
+
+# Cars = ["BMW","AUDI","TOYOTA"]
+# for car in range(len(Cars)):
+#     print(Cars[car])
+Cars = ["BMW","AUDI","TOYOTA"]
+[print(car)for car in Cars]
