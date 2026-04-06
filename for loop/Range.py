@@ -9,5 +9,9 @@
 # print("DONE!")
 # for i in range(5,0,-1):
 #     print(i)
-for i in reversed(range(1,10,-1)):
-    print(i)
+# for i in reversed(range(1,10,1)):
+#     print(i)
+
+name = "Shubham"
+for i in name:
+    print(i ,end='')
