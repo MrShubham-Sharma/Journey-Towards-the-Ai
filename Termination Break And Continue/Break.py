@@ -12,7 +12,16 @@
 #     print(num)
 
 # continue
-for i in range(5):
-    if i == 2 or i == 4:
+# we have to Skip 2 and 4
+# for i in range(5):
+#     if i == 2 or i == 4:
+#         continue
+#     print(i)
+
+# Now We Have to Print 2,4,6,8
+n=0
+while n<10:
+    n +=1
+    if n%2  !=0:
         continue
-    print(i)
+    print(n)
