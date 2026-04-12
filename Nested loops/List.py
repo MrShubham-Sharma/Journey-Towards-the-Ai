@@ -6,3 +6,4 @@ for i in list1:
     # Once the inner loop is completed it will go to the next value of i and repeat the process
     for j in list2:
         print(i, j)
+    print("Inner loop is completed for i =", i)
