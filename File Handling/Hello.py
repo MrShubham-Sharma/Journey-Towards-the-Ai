@@ -10,5 +10,5 @@ with open("Hello.txt", "r") as user_file:
     print(content)
 
 # Appending To The File
-with open("Hello.txt", "a") as user_file:
-    user_file.write("Have A Nice Day\n")
+with open("Hello.txt","a") as user_file:
+    user_file.write("This Line Is Appended\n")
