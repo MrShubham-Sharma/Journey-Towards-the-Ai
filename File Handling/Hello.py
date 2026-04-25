@@ -20,7 +20,7 @@ with open("Hello.txt", "r") as user_file:
 with open("Hello.txt","a") as user_file:
     # write() method is used to write the content to the file and it will append the content to the file
     user_file.write("Hello Brother\n")
-    
+
 Hello = open("Hello.txt","r")
 print(Hello.read())
 Hello.close()
@@ -33,3 +33,14 @@ Hello = open("Helllo.txt","r")
 print(Hello.read())
 Hello.close()
 Hello.close()
+
+# remember to close the file after opening it otherwise it will cause memory leak and it will also cause the file
+#  to be locked and you will not be able to access the file until you close it.
+
+# with open is used to open the file and it will automatically close the file after the block of code is executed.
+
+# open() method is used to open the file and it takes two arguments the first argument is the name of
+#  the file and the second argument is the mode in which you want to open the file.
+
+# Read() method is used to read the content of the file and it returns the content of the file as a string.
+# as weel as it can also take an argument which is the number of characters you want to read from the file.
